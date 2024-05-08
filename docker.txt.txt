@@ -1,0 +1,13 @@
+docker -v
+docler ps
+docker images
+go to docker hub
+select image from docker hub
+docker run --name JAVA -it -d OpenJDK
+docker exec -it java OpenJDK
+do the program
+/exit
+docker ps
+docker stop containerid
+docker container rm containerid
+docker image prune

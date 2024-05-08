@@ -1,0 +1,30 @@
+const express=require('express')
+const app=express();
+
+app.use(express.static('public'))
+
+app.listen(5000,()=>{
+    console.log("Server is started");
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+npm init
+npm install express --save
+index.js
+create public folder 
+under public create indexc.html
+run 
+node index.js
+
+
